@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Meta imported from Bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v4.1.1">
+
+
+        <!-- Most recent Bootstrap is v4.5.2-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+
+        <!--Link to the css stylesheet-->
+        <link href="styles.css" rel="stylesheet">
+
+        <!--Title-->
+        <title>GM Homepage</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-dark bg-dark">
+            <!--Home button-->
+            <a class="btn btn-secondary" href="index.html" role="button">Gian Millare</a>
+
+            <!--Dropdown Menu on the top right. IMPORTANT: there are different kinds of dropdown menus! (i.e. links, buttons, etc.)-->
+            <div class="btn-group">
+                <div class="btn-group dropleft" role="group">
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropleft</span></button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/gianmillare/" target="_blank">LinkedIn Profile</a>
+                        <a class="dropdown-item" href="https://github.com/gianmillare" target="_blank">Github Profile</a>
+                        <a class="dropdown-item" href="mailto:gianmillaregsm@gmail.com">Contact Me</a>
+                        <hr>
+                        <a class="dropdown-item" href="background.html">Background</a>
+                        <a class="dropdown-item" href="coding.html" >Coding</a>
+                        <a class="dropdown-item" href="hobbies.html">Fun Facts</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary">More Options</button>
+            </div>
+
+        </nav>
+
+        <!--Introduction and image-->
+        <div class="container" id="intro">
+            <h2>Hello, my name is Gian Millare!</h2>
+            <h4>Aspiring data scientist and software developer.</h4>
+        </div>
+
+        <!--Cards to display Background, Code, and Hobbies-->
+        <div class="container" id="pages">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="edu.jpg" class="class-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Background</h5>
+                            <p class="card-text">Click the link below to view my journey into programming.</p>
+                            <a href="background.html" class="btn btn-dark">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="code.jpg" class="class-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding</h5>
+                            <p class="card-text">Click the link below to view examples of my code.</p>
+                            <a href="coding.html" class="btn btn-dark">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="success.jpg" class="class-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Fun Facts</h5>
+                            <p class="card-text">Click the link below to see what I like to do other than code.</p>
+                            <a href="hobbies.html" class="btn btn-dark">View</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--The below scripts are used to increase interactivity, example: dropdown menus-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

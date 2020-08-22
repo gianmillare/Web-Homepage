@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Meta imported from Bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v4.1.1">
+
+
+        <!-- Most recent Bootstrap is v4.5.2-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+
+        <!--Link to the css stylesheet-->
+        <link href="styles.css" rel="stylesheet">
+
+        <!--Link to the JavaScript File-->
+        <script src="index.js"></script>
+
+        <!--Title-->
+        <title>GM Fun Facts</title>
+    </head>
+
+    <body>
+            <nav class="navbar navbar-dark bg-dark">
+                <!--Home button-->
+                <a class="btn btn-secondary" href="index.html" role="button">Gian Millare</a>
+
+                <!--Dropdown Menu on the top right. IMPORTANT: there are different kinds of dropdown menus! (i.e. links, buttons, etc.)-->
+                <div class="btn-group">
+                    <div class="btn-group dropleft" role="group">
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropleft</span></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/gianmillare/" target="_blank">LinkedIn Profile</a>
+                            <a class="dropdown-item" href="https://github.com/gianmillare" target="_blank">Github Profile</a>
+                            <a class="dropdown-item" href="mailto:gianmillaregsm@gmail.com">Contact Me</a>
+                            <hr>
+                            <a class="dropdown-item" href="background.html">Background</a>
+                            <a class="dropdown-item" href="coding.html" >Coding</a>
+                            <a class="dropdown-item" href="hobbies.html">Fun Facts</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary">More Options</button>
+                </div>
+
+            </nav>
+
+            <!--Jumbotron to introduce programming languages-->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Fun Facts and hobbies!</h1>
+                    <p>I try not to let my passion for coding envelope my entire life. Just like numerous others, I have a life outside of work and programming. Below are some of my favorite activities. Feel free
+                    to let me know if you share the same interests!</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="https://www.linkedin.com/in/gianmillare/" class="btn btn-primary" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/gianmillare" class="btn btn-primary" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card body that will show my hobbies-->
+            <div class="container">
+                <div class="row mb-2">
+
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">Hiking</a>
+                                </h3>
+                                <p class="card-text mb-auto">I love hiking because it keeps me sane after long periods of coding. Peaceful, beautiful, and healthy.</p>
+                                <p>Can you guess what my favorite part about hiking is?</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" onclick="correct(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Water</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Animals</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Fresh Air</label>
+                                </div>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="hike.jpeg" alt="Card image cap" id="hobby-img">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">Gaming</a>
+                                </h3>
+                                <p class="card-text mb-auto">My escape from a world that smacks you with reality. Also, allows me to bond with people across the world.</p>
+                                <p>Can you guess my favorite video game of all time?</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Halo 5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Grand Theft Auto: San Andreas</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" onclick="correct(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Call of Duty: Black Ops 2</label>
+                                </div>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="game.png" alt="Card image cap" id="hobby-img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Second Card body that will show my hobbies-->
+            <div class="container">
+                <div class="row mb-2">
+
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">The Office</a>
+                                </h3>
+                                <p class="card-text mb-auto">The source of my humor. I would say I have dry and dark humor... Do you think we'd get along?</p>
+                                <p>Can you guess which character I relate to the most?</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Michael Scott</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" onclick="correct(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Dwight Schrute</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Peter Griffin</label>
+                                </div>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="office.jpg" alt="Card image cap" id="hobby-img">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="#">Food</a>
+                                </h3>
+                                <p class="card-text mb-auto">I want to (one day) travel the world just to eat food from different cultures and show them to my mom.</p>
+                                <p>Can you guess my favorite food of all time?</p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" onclick="correct(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Sushi</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">Korean BBQ</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" onclick="incorrect(this)">
+                                    <label class="form-check-label" for="inlineCheckbox1">2 McChickens, & a Large Fries</label>
+                                </div>
+                            </div>
+                            <img class="card-img-right flex-auto d-none d-md-block" src="food.jpg" alt="Card image cap" id="hobby-img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

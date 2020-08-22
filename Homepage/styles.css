@@ -1,0 +1,38 @@
+#intro {
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 30px;
+}
+
+#pages {
+    padding: 30px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.class-img-top {
+    height: 315px;
+    width: 350px;
+}
+
+#schools {
+    height: 695px;
+    width: 1000px;
+}
+
+#lang {
+    height: 695px;
+    width: 1000px;
+}
+
+#code-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#hobby-img {
+    height: 300px;
+    width: 225px;
+}
