@@ -21,6 +21,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <hr>
 
 <h2>Preview 2: This image is a preview of my background page.</h2>
+<p>The background page shows my education, family history, and my technical skills (with regard to computer science and dat aanalytics). Each is just a simple explanation accompanied by a carousel of pictures relating to each category.</p>
 
 <div align="center"> 
 <img src="preview/bg.png">
