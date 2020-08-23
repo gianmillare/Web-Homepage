@@ -7,7 +7,7 @@ This was the first assignment offered by HarvardX's CS50: Intro to CS course tha
 
 Skills Used: HTML, CSS, JavaScript, UI/UX Design, HTTP/HTML, Bootstrap 4
 
-Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX -------> Visit Repository
+Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX -------> [Visit Repository](https://github.com/gianmillare/CS50-Introduction-to-Computer-Science)
 
 <hr>
 
