@@ -12,6 +12,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2>Preview 1: This image is a preview of the homepage.</h2>
+<p>User's will find three cards to choose a page to view: Background, Coding (projects), and Fun Facts (hobbies). A small introduction is displaced right under the navbar (which is constant throughout the other pages in the web application).</p>
 
 <div align="center"> 
 <img src="preview/home.png">
