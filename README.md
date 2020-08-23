@@ -9,7 +9,7 @@ Skills Used: HTML, CSS, JavaScript, UI/UX Design, HTTP/HTML, Bootstrap 4
 
 Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX -------> Visit Repository
 
---------------------------------------------------------------------------------------------------------------------------------------------
+<hr>
 
 <h2>Preview 1: This image is a preview of the homepage.</h2>
 <p>User's will find three cards to choose a page to view: Background, Coding (projects), and Fun Facts (hobbies). A small introduction is displaced right under the navbar (which is constant throughout the other pages in the web application).</p>
@@ -18,7 +18,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <img src="preview/home.png">
 </div>
 
---------------------------------------------------------------------------------------------------------------------------------------------
+<hr>
 
 <h2>Preview 2: This image is a preview of my background page.</h2>
 
@@ -26,7 +26,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <img src="preview/bg.png">
 </div>
 
---------------------------------------------------------------------------------------------------------------------------------------------
+<hr>
 
 <h2>Preview 3: This image is a preview of my projects page.</h2>
 
@@ -34,7 +34,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <img src="preview/coding.png">
 </div>
 
---------------------------------------------------------------------------------------------------------------------------------------------
+<hr>
 
 <h2>Preview 4: This image is a preview of my "Fun Facts" page.</h2>
 
@@ -42,4 +42,4 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <img src="preview/gaming.png">
 </div>
 
---------------------------------------------------------------------------------------------------------------------------------------------
+<hr>
