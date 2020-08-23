@@ -11,7 +11,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Preview 1: This image is a preview of the homepage.
+<h2>Preview 1: This image is a preview of the homepage.</h2>
 
 <div align="center"> 
 <img src="preview/home.png">
@@ -19,7 +19,7 @@ Preview 1: This image is a preview of the homepage.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Preview 2: This image is a preview of my background page.
+<h2>Preview 2: This image is a preview of my background page.</h2>
 
 <div align="center"> 
 <img src="preview/bg.png">
@@ -27,7 +27,7 @@ Preview 2: This image is a preview of my background page.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Preview 3: This image is a preview of my projects page.
+<h2>Preview 3: This image is a preview of my projects page.</h2>
 
 <div align="center"> 
 <img src="preview/coding.png">
@@ -35,7 +35,7 @@ Preview 3: This image is a preview of my projects page.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Preview 4: This image is a preview of my "Fun Facts" page.
+<h2>Preview 4: This image is a preview of my "Fun Facts" page.</h2>
 
 <div align="center"> 
 <img src="preview/gaming.png">
