@@ -39,7 +39,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <hr>
 
 <h2>Preview 4: This image is a preview of my "Fun Facts" page.</h2>
-<p>This is the only page that uses JavaScript, and dives a little deeper into my personality.</p>
+<p>This is the only page that uses JavaScript, and dives a little deeper into my personality. User's are able to read a little more about my hobbies and interests, and can also participate in a questions and answer game. </p>
 
 <div align="center"> 
 <img src="preview/gaming.png">
