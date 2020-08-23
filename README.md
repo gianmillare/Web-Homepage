@@ -9,3 +9,10 @@ Skills Used: HTML, CSS, JavaScript, UI/UX Design, HTTP/HTML
 
 Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX -------> Visit Repository
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Preview 1: This image is a preview of the homepage.
+
+<div align="center"> 
+<img src="preview/home.png">
+</div>
