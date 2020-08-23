@@ -5,7 +5,7 @@ This web application introduces HTML, CSS, and JavaScript basics to develop a si
 
 This was the first assignment offered by HarvardX's CS50: Intro to CS course that focused primarily on web application development. I have created multiple web portfolio's before, but I decided to complete this assignment to hone/gain web development skills I may have missed. I truly enjoyed the UI/UX aspect of this assignment.
 
-Skills Used: HTML, CSS, JavaScript, UI/UX Design, HTTP/HTML
+Skills Used: HTML, CSS, JavaScript, UI/UX Design, HTTP/HTML, Bootstrap 4
 
 Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX -------> Visit Repository
 
@@ -16,3 +16,5 @@ Preview 1: This image is a preview of the homepage.
 <div align="center"> 
 <img src="preview/home.png">
 </div>
+
+--------------------------------------------------------------------------------------------------------------------------------------------
