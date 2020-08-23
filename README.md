@@ -30,6 +30,7 @@ Gian Millare's Repository for CS50: Introduction to Computer Science by HarvardX
 <hr>
 
 <h2>Preview 3: This image is a preview of my projects page.</h2>
+<p>Two sections are introduced in the projects page: A "Capstone Projects" section, and a "Coding Challenges" section.</p>
 
 <div align="center"> 
 <img src="preview/coding.png">
